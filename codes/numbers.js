@@ -15,7 +15,7 @@ class Numbers {
         let array = str.split(",");
         let odd = [];
         for(let i=0; i<array.length; i++){
-            if(array[i]%1==0){
+            if(array[i]%2==1){
                 odd.push(array[i]);
             }
         }

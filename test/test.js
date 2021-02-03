@@ -3,7 +3,7 @@ const expect = chai.expect;
 const assert = chai.assert;
 const Numbers = require('../codes/numbers');
 
-describe("Numbers Model", function(){
+describe("Even Numbers Model", function(){
     
     it("Return the expected return value on success", function(){
         let num = new Numbers();
@@ -27,5 +27,15 @@ describe("Numbers Model", function(){
         let result = num.getEven(param);
 
         expect(result).to.be.empty;
+    });
+});
+
+describe("Odd Numbers Model", function(){
+    it("Return the expected return value on success", function(){
+        let num = new Numbers();
+        let param = "1,2,3,4,5,6";
+        let result = num.getOdd(param);
+
+        expect(result).to.deep.equal(["1","3","5"]);
     });
 });

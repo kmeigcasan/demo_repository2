@@ -21,6 +21,16 @@ class Numbers {
         }
         return odd;
     }
-    
+    //Function to get positive numbers
+    getPOsitive(str){    
+        let array = str.split(",");
+        let positive = [];
+        for(let i=0; i<array.length; i++){
+            if(array[i]>0){
+                positive.push(array[i]);
+            }
+        }
+        return positive;
+    } 
 }
 module.exports = Numbers;

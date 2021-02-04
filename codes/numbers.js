@@ -4,7 +4,7 @@ class Numbers {
         let array = str.split(",");
         let even = [];
         for(let i=0; i<array.length; i++){
-            if(array[i]%2==0){
+            if(parseInt(array[i])%2==0){
                 even.push(array[i]);
             }
         }
@@ -22,7 +22,7 @@ class Numbers {
         return odd;
     }
     //Function to get positive numbers
-    getPOsitive(str){    
+    getPositive(str){    
         let array = str.split(",");
         let positive = [];
         for(let i=0; i<array.length; i++){

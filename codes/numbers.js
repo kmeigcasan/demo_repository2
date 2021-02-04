@@ -8,7 +8,6 @@ class Numbers {
                 even.push(array[i]);
             }
         }
-        console.log(`Here are the even numbers: ${even.join()}`);
         return even;
     }
     //Function to get odd numbers
@@ -20,7 +19,6 @@ class Numbers {
                 odd.push(array[i]);
             }
         }
-        console.log(`Here are the odd numbers: ${odd.join()}`);
         return odd;
     }
     

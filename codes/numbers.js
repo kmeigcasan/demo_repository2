@@ -1,4 +1,5 @@
 class Numbers {
+    //Function to get even numbers
     getEven(str) {
         let array = str.split(",");
         let even = [];
@@ -10,8 +11,8 @@ class Numbers {
         console.log(`Here are the even numbers: ${even.join()}`);
         return even;
     }
-
-    getOdd(str){
+    //Function to get odd numbers
+    getOdd(str){        
         let array = str.split(",");
         let odd = [];
         for(let i=0; i<array.length; i++){

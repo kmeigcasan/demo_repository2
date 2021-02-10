@@ -1,5 +1,4 @@
 class Numbers {
-    //Function to get even numbers
     getEven(str) {
         let array = str.split(",");
         let even = [];
@@ -10,7 +9,6 @@ class Numbers {
         }
         return even;
     }
-    //Function to get odd numbers
     getOdd(str){        
         let array = str.split(",");
         let odd = [];

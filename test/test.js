@@ -13,7 +13,7 @@ describe("Even Numbers Model", function(){
         expect(result).to.deep.equal(["2","4","6"]);
     });
 
-    it("Return an empty if the string passed is empty", function(){
+    it("Return empty if the string passed is empty", function(){
         let num = new Numbers();
         let param = "";
         let result = num.getEven(param);
@@ -21,7 +21,7 @@ describe("Even Numbers Model", function(){
         expect(result).to.be.empty;
     });
     
-    it("Return an error message if string passed has no even numbers", function(){
+    it("Return empty if string passed has no even numbers", function(){
         let num = new Numbers();
         let param = "1,3,5";
         let result = num.getEven(param);

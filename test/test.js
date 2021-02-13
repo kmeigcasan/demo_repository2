@@ -2,7 +2,7 @@ const chai = require('chai');
 const expect = chai.expect;
 const assert = chai.assert;
 const Numbers = require('../codes/numbers');
-
+//sample
 describe("Numbers Model", function(){
     
     it("Return the expected return value on success", function(){
